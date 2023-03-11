@@ -1,0 +1,26 @@
+body {
+    background-color: darkkhaki;
+}
+
+.accourdion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mem {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.mem-image {
+    width: 100px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mem-image_first {
+    background-image: url("../assets/img/1.webp");
+}
