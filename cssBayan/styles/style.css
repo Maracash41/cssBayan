@@ -10,9 +10,13 @@ body {
 
 .mem {
     margin-bottom: 20px;
-    padding-bottom: 10px;
+    height: 60px;
     width: 40%;
-    border-bottom: 1px solid gray;
+    transition: height 0.3s;
+}
+
+.mem[open] {
+    height: 450px;
 }
 
 .mem__title {
@@ -26,6 +30,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.15s;
+}
+
+.mem-image__container:hover {
+    transform: scale(1.1);
 }
 
 .mem-image {
