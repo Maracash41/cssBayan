@@ -1,5 +1,5 @@
 body {
-    background-color: darkkhaki;
+    background-color: #F6F6EC;
 }
 
 .accourdion {
@@ -9,18 +9,44 @@ body {
 }
 
 .mem {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 40%;
+    border-bottom: 1px solid gray;
+}
+
+.mem__title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #015AD9
+}
+
+.mem-image__container {
     display: flex;
     justify-content: center;
-    width: 40%;
+    align-items: center;
 }
 
 .mem-image {
-    width: 100px;
-    height: 150px;
+    width: 400px;
+    height: 300px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .mem-image_first {
     background-image: url("../assets/img/1.webp");
+}
+
+.mem-image_two {
+    background-image: url("../assets/img/2.webp");
+}
+
+.mem-image_third {
+    background-image: url("../assets/img/3.webp");
+}
+
+.mem-image_four {
+    background-image: url("../assets/img/4.webp");
 }
