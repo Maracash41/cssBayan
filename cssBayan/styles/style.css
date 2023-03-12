@@ -33,10 +33,6 @@ body {
     transition: transform 0.15s;
 }
 
-.mem-image__container:hover {
-    transform: scale(1.1);
-}
-
 .mem-image {
     width: 400px;
     height: 300px;
@@ -58,4 +54,22 @@ body {
 
 .mem-image_four {
     background-image: url("../assets/img/4.webp");
+}
+
+@media (hover: hover) {
+    .mem-image__container:hover {
+        transform: scale(1.1);
+    }
+  }
+
+@media screen and (max-width:820px) {
+    .mem__title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .mem__title {
+        font-size: 15px;
+    }
 }
